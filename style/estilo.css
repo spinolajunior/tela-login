@@ -22,14 +22,7 @@
     --marrom-escuro:#8C6954;
     --vermelho: #F23D3D;
 }
-hr{
-    border-color: rgba(0, 0, 0, 0.295);
-    background-color: rgba(0, 0, 0, 0.452);
-    margin-top: 19px;
-    height: 3px;
-    width: 49%;
-    margin: auto;
-}
+
 body,html{
 width: 100vw;
 height: 100vh;
@@ -65,7 +58,7 @@ div#imagem{
 
 section#login{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 350px;
