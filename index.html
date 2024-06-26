@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/estilo.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/media-query.css">
+
+    <title>login</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                img
+            
             </div>
             <div id="formulario">
                 <h1>LOGIN</h1>
-                <p>Sejá Bem vindo Faça login para ter acesso ao sistema no seu ambiente.</p>
+                <p>Seja Bem-vindo , faça login para ter acesso ao sistema</p>
+                <hr>
                 <form action="validarLogin.php" method="post" autocomplete="off">
                     <input type="text" name="user" id="iuser" minlength="8" maxlength="20" required>
+                    <br>
                     <input type="password" name="password" id="ipass" minlength="8" max="20" required>
                 </form>
             </div>
