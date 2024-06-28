@@ -81,9 +81,12 @@ section#login{
 }
 input[type=email],input[type=password]{
     width: 90%;
-    height: 30px;
+    height: 100%;
     display: block;
     margin: auto;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
 }
 /* input{
     font-size: 1.5em;
@@ -107,6 +110,7 @@ form>div#botão>input[type=submit]{
     border: none;
     border-radius: 5px;
     margin-bottom: 5px;
+
 }
 form>div#botão>input[type=submit]:hover{
 background-color: #ffe75c;
@@ -160,6 +164,7 @@ div.campo{
     height: 40px;
     border-radius: 5px;
     background-color: #f6ff0000;
+    margin-bottom: 5px;
 }
 div#botão{
     display: block;
