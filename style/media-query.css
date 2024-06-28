@@ -5,8 +5,13 @@
         background-image: linear-gradient(to left ,#8C6954 , #f23d3d7c  );
     }
    section#login{
+    top: 50%;
     width: 80vw;
+    height: 400px
    } 
+   div#formulario>h1{
+    margin-top: 35px;
+   }
    section#login>div#imagem{
     background-image: url(../img/pexels-pixabay-264636.jpg);
     background-position: left center;
@@ -33,30 +38,28 @@
         background-image: linear-gradient(to left ,#8C6954 , #F23D3D  );
     }
     section#login{
-        width: 1000px;
+        width: 990px;
+        height: 500px;
         top: 50%;
+        
 
     }
-   
-    section#login>div#imagem{
-        background-image: url(../img/pexels-pixabay-264636.jpg);
-       
-        width: 50%;
-        height:100vh;
-        background-position: bottom left;
-        float: right;
-    }
-    section#login>div#formulario>{
-        float: left;
-        width: 50%;
-        height: 100vh;
-        
-    }
-    div#formulario>h1{
-        font-size: 3em;
-    }
-    div#formulario>p{
-        font-size: 1.2em;
-    }
-    
+   div#imagem{
+    background-image: url(../img/pexels-pixabay-264636.jpg);
+    float: left;
+    width: 50%;
+    height: 100%;
+   }
+   div#formulario{
+    float: right;
+    height: 100%;
+    width: 50%;
+   }
+   div#formulario>h1{
+    margin-top: 18%;
+    font-size: 3em;
+   }
+   div#formulario>p{
+    font-size: 1.3em;
+   }
 }
